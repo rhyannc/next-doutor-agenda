@@ -8,6 +8,5 @@ export default defineConfig({
   dialect: "postgresql",
   dbCredentials: {
     url: process.env.DATABASE_URL!,
-    //url: "postgres://postgres:awa2306@192.168.15.15:5432/postgres",
   },
 });
